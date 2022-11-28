@@ -34,7 +34,7 @@ public class Search extends HttpServlet {
 
            PreparedStatement preparedStatement = connection.prepareStatement("Insert into history values (?,?)");
            preparedStatement.setString(1, keyword);
-           preparedStatement.setString(2, "https://http://localhost:8008/AccioSearchEngine/Search?keyword="+keyword);
+           preparedStatement.setString(2, "https://acciosearchengine01.herokuapp.com/Search?keyword="+keyword);
            preparedStatement.executeUpdate();
 
             for(SearchResult searchResult:results){
