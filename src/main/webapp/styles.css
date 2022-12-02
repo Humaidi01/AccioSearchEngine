@@ -1,9 +1,16 @@
 body {
+
+    background-image : url(https://images8.alphacoders.com/116/1164611.jpg);
+    background-size : cover;
+
+
      text-align: center;
+
 
 }
 .searchEngine {
- background-color : #C4A484;
+
+
 
 }
 
@@ -23,6 +30,10 @@ input[type=text]{
 }
 .resultTable {
 
+   background-color : #F8F0E3;
+    opacity: .9;
     display: inline-block;
     margin: auto;
 }
+
+
